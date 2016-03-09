@@ -36,7 +36,7 @@
     <platform name="android">
 
         <!--<framework src="com.android.support:support-v4:+" value="gradle" />-->
-        <lib-file src="../../platforms/android/libs/android/android-support-v4.jar" />
+        <lib-file src="../../platforms/android/libs/android-support-v4.jar" />
 
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="FacebookConnectPlugin">
