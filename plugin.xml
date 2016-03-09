@@ -35,6 +35,8 @@
     <!-- android -->
     <platform name="android">
 
+        <framework src="com.android.support:support-v4:+" value="gradle" />
+
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="FacebookConnectPlugin">
                 <param name="android-package" value="org.apache.cordova.facebook.ConnectPlugin" />
@@ -57,7 +59,6 @@
             <activity android:label="@string/fb_app_name" android:name="com.facebook.LoginActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"></activity>
         </config-file>
 
-        <framework src="com.android.support:support-v4:+" value="gradle" />
         <framework src="platforms/android/FacebookLib" custom="true" />
         <!--<lib-file src="libs/android/android-support-v4.jar" />-->
 
