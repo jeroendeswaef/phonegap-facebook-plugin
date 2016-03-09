@@ -35,7 +35,8 @@
     <!-- android -->
     <platform name="android">
 
-        <framework src="com.android.support:support-v4:+" value="gradle" />
+        <!--<framework src="com.android.support:support-v4:+" value="gradle" />-->
+        <framework src="android-support-v4" custom="false" />
 
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="FacebookConnectPlugin">
