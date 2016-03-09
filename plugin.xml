@@ -37,7 +37,8 @@
 
         <!--<framework src="com.android.support:support-v4:+" value="gradle" />-->
         <!--<lib-file src="platforms/android/FacebookLib/libs/android-support-v4.jar" />-->
-        <framework src="platforms/android/FacebookLib/libs/android-support-v4.jar" custom="true"  />
+        <!--<framework src="platforms/android/FacebookLib/libs/android-support-v4.jar" custom="true"  />-->
+        <dependency id="cordova-android-support-v4" />
 
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="FacebookConnectPlugin">
